@@ -116,6 +116,10 @@ def update_git(branch='deploy'):
 def restart_uwsgi():
     sudo('service uwsgi-ores-web restart')
 
+@roles('web')
+def restart_precached():
+    sudo('service precached-ores-web restart')
+
 
 @roles('worker')
 def restart_celery():
