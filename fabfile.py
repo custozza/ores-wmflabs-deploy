@@ -79,13 +79,15 @@ def initialize_worker_server():
     initialize_server('deploy')
     restart_celery()
 
+
 def git_clone(branch='deploy'):
     sr('mkdir', '-p', config_dir)
     sr('chmod' , '-R', '775', config_dir)
     # They need to be one command
     sr('cd', '/', '&&', 'git', 'clone', '--recursive',
-      'https://github.com/wiki-ai/ores-wikimedia-config.git', config_dir)
+       'https://github.com/wiki-ai/ores-wikimedia-config.git', config_dir)
     sr('cd', config_dir, '&&', 'git', 'checkout', branch)
+
 
 @roles('flower')
 def setup_flower():
