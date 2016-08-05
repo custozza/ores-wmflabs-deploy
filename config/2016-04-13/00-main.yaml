@@ -88,8 +88,8 @@ scoring_contexts:
         "on": ["edit"]
   cswiki:
     extractor: cswiki_api
-    scorer_models:
-      reverted: cswiki_revert
+    scorer_models: {}
+#      reverted: cswiki_revert
     precache:
       reverted:
         "on": ["edit"]
@@ -116,8 +116,8 @@ scoring_contexts:
         "on": ["edit"]
   enwiktionary:
     extractor: enwiktionary_api
-    scorer_models:
-      reverted: enwiktionary_revert
+    scorer_models: {}
+#      reverted: enwiktionary_revert
     precache:
       reverted:
         "on": ["edit"]
@@ -165,8 +165,8 @@ scoring_contexts:
         "on": ["edit"]
   huwiki:
     extractor: huwiki_api
-    scorer_models:
-      reverted: huwiki_revert
+    scorer_models: {}
+#      reverted: huwiki_revert
     precache:
       reverted:
         "on": ["edit"]
@@ -188,8 +188,8 @@ scoring_contexts:
     extractor: nlwiki_api
     scorer_models:
       reverted: nlwiki_revert
-      damaging: nlwiki_damaging
-      goodfaith: nlwiki_goodfaith
+#      damaging: nlwiki_damaging
+#      goodfaith: nlwiki_goodfaith
     precache:
       reverted:
         "on": ["edit"]
@@ -199,17 +199,17 @@ scoring_contexts:
         "on": ["edit"]
   nowiki:
     extractor: nowiki_api
-    scorer_models:
-      reverted: nowiki_revert
+    scorer_models: {}
+#      reverted: nowiki_revert
     precache:
       reverted:
         "on": ["edit"]
   plwiki:
     extractor: plwiki_api
-    scorer_models:
-      reverted: plwiki_revert
-      goodfaith: plwiki_damaging
-      damaging: plwiki_goodfaith
+    scorer_models: {}
+#      reverted: plwiki_revert
+#      goodfaith: plwiki_damaging
+#      damaging: plwiki_goodfaith
     precache:
       reverted:
         "on": ["edit"]
@@ -244,7 +244,7 @@ scoring_contexts:
       reverted: ruwiki_revert
       damaging: ruwiki_damaging
       goodfaith: ruwiki_goodfaith
-      wp10: ruwiki_wp10
+#      wp10: ruwiki_wp10
     precache:
       damaging:
         "on": ["edit"]
@@ -254,8 +254,8 @@ scoring_contexts:
         "on": ["edit"]
   svwiki:
     extractor: svwiki_api
-    scorer_models:
-      reverted: svwiki_revert
+    scorer_models: {}
+#      reverted: svwiki_revert
     precache:
       reverted:
         "on": ["edit"]
@@ -290,8 +290,8 @@ scoring_contexts:
     extractor: wikidata_api
     scorer_models:
       reverted: wikidata_revert
-      damaging: wikidata_damaging
-      goodfaith: wikidata_goodfaith
+#      damaging: wikidata_damaging
+#      goodfaith: wikidata_goodfaith
     precache:
       damaging:
         "on": ["nonbot_edit"]

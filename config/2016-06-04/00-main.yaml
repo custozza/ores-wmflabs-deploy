@@ -88,8 +88,8 @@ scoring_contexts:
         "on": ["edit"]
   cswiki:
     extractor: cswiki_api
-    scorer_models:
-      reverted: cswiki_revert
+    scorer_models: {}
+#      reverted: cswiki_revert
     precache:
       reverted:
         "on": ["edit"]
@@ -116,8 +116,8 @@ scoring_contexts:
         "on": ["edit"]
   enwiktionary:
     extractor: enwiktionary_api
-    scorer_models:
-      reverted: enwiktionary_revert
+    scorer_models: {}
+#      reverted: enwiktionary_revert
     precache:
       reverted:
         "on": ["edit"]
@@ -206,10 +206,10 @@ scoring_contexts:
         "on": ["edit"]
   plwiki:
     extractor: plwiki_api
-    scorer_models:
-      reverted: plwiki_revert
-      goodfaith: plwiki_damaging
-      damaging: plwiki_goodfaith
+    scorer_models: {}
+#      reverted: plwiki_revert
+#      goodfaith: plwiki_damaging
+#      damaging: plwiki_goodfaith
     precache:
       reverted:
         "on": ["edit"]
@@ -244,7 +244,7 @@ scoring_contexts:
       reverted: ruwiki_revert
       damaging: ruwiki_damaging
       goodfaith: ruwiki_goodfaith
-      wp10: ruwiki_wp10
+#      wp10: ruwiki_wp10
     precache:
       damaging:
         "on": ["edit"]

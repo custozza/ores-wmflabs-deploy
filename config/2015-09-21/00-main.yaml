@@ -81,22 +81,22 @@ scoring_systems:
 scoring_contexts:
   arwiki:
     extractor: arwiki_api
-    scorer_models:
-      reverted: arwiki_revert
+    scorer_models: {}
+#      reverted: arwiki_revert
     precache:
       reverted:
         "on": ["edit"]
   cswiki:
     extractor: cswiki_api
-    scorer_models:
-      reverted: cswiki_revert
+    scorer_models: {}
+#      reverted: cswiki_revert
     precache:
       reverted:
         "on": ["edit"]
   dewiki:
     extractor: dewiki_api
-    scorer_models:
-      reverted: dewiki_revert
+    scorer_models: {}
+#      reverted: dewiki_revert
     precache:
       reverted:
         "on": ["edit"]
@@ -116,22 +116,22 @@ scoring_contexts:
         "on": ["edit"]
   enwiktionary:
     extractor: enwiktionary_api
-    scorer_models:
-      reverted: enwiktionary_revert
+    scorer_models: {}
+#      reverted: enwiktionary_revert
     precache:
       reverted:
         "on": ["edit"]
   eswiki:
     extractor: eswiki_api
-    scorer_models:
-      reverted: eswiki_revert
+    scorer_models: {}
+#      reverted: eswiki_revert
     precache:
       reverted:
         "on": ["edit"]
   etwiki:
     extractor: etwiki_api
-    scorer_models:
-      reverted: etwiki_revert
+    scorer_models: {}
+#      reverted: etwiki_revert
     precache:
       reverted:
         "on": ["edit"]
@@ -150,46 +150,46 @@ scoring_contexts:
         "on": ["edit"]
   frwiki:
     extractor: frwiki_api
-    scorer_models:
-      wp10: frwiki_wp10
-      reverted: frwiki_revert
+    scorer_models: {}
+#      reverted: frwiki_revert
+#      wp10: frwiki_wp10
     precache:
       reverted:
         "on": ["edit"]
   hewiki:
     extractor: hewiki_api
-    scorer_models:
-      reverted: hewiki_revert
+    scorer_models: {}
+#      reverted: hewiki_revert
     precache:
       reverted:
         "on": ["edit"]
   huwiki:
     extractor: huwiki_api
-    scorer_models:
-      reverted: huwiki_revert
+    scorer_models: {}
+#      reverted: huwiki_revert
     precache:
       reverted:
         "on": ["edit"]
   idwiki:
     extractor: idwiki_api
-    scorer_models:
-      reverted: idwiki_revert
+    scorer_models: {}
+#      reverted: idwiki_revert
     precache:
       reverted:
         "on": ["edit"]
   itwiki:
     extractor: itwiki_api
-    scorer_models:
-      reverted: itwiki_revert
+    scorer_models: {}
+#      reverted: itwiki_revert
     precache:
       reverted:
         "on": ["edit"]
   nlwiki:
     extractor: nlwiki_api
-    scorer_models:
-      reverted: nlwiki_revert
-      damaging: nlwiki_damaging
-      goodfaith: nlwiki_goodfaith
+    scorer_models: {}
+#      reverted: nlwiki_revert
+#      damaging: nlwiki_damaging
+#      goodfaith: nlwiki_goodfaith
     precache:
       reverted:
         "on": ["edit"]
@@ -199,17 +199,17 @@ scoring_contexts:
         "on": ["edit"]
   nowiki:
     extractor: nowiki_api
-    scorer_models:
-      reverted: nowiki_revert
+    scorer_models: {}
+#      reverted: nowiki_revert
     precache:
       reverted:
         "on": ["edit"]
   plwiki:
     extractor: plwiki_api
-    scorer_models:
-      reverted: plwiki_revert
-      goodfaith: plwiki_damaging
-      damaging: plwiki_goodfaith
+    scorer_models: {}
+#      reverted: plwiki_revert
+#      goodfaith: plwiki_damaging
+#      damaging: plwiki_goodfaith
     precache:
       reverted:
         "on": ["edit"]
@@ -240,11 +240,11 @@ scoring_contexts:
         "on": ["edit"]
   ruwiki:
     extractor: ruwiki_api
-    scorer_models:
-      reverted: ruwiki_revert
-      damaging: ruwiki_damaging
-      goodfaith: ruwiki_goodfaith
-      wp10: ruwiki_wp10
+    scorer_models: {}
+#      reverted: ruwiki_revert
+#      damaging: ruwiki_damaging
+#      goodfaith: ruwiki_goodfaith
+#      wp10: ruwiki_wp10
     precache:
       damaging:
         "on": ["edit"]
@@ -254,17 +254,17 @@ scoring_contexts:
         "on": ["edit"]
   svwiki:
     extractor: svwiki_api
-    scorer_models:
-      reverted: svwiki_revert
+    scorer_models: {}
+#      reverted: svwiki_revert
     precache:
       reverted:
         "on": ["edit"]
   trwiki:
     extractor: trwiki_api
-    scorer_models:
-      reverted: trwiki_revert
-      damaging: trwiki_damaging
-      goodfaith: trwiki_goodfaith
+    scorer_models: {}
+#      reverted: trwiki_revert
+#      damaging: trwiki_damaging
+#      goodfaith: trwiki_goodfaith
     precache:
       damaging:
         "on": ["edit"]
@@ -274,24 +274,24 @@ scoring_contexts:
         "on": ["edit"]
   ukwiki:
     extractor: ukwiki_api
-    scorer_models:
-      reverted: ukwiki_revert
+    scorer_models: {}
+#      reverted: ukwiki_revert
     precache:
       reverted:
         "on": ["edit"]
   viwiki:
     extractor: viwiki_api
-    scorer_models:
-      reverted: viwiki_revert
+    scorer_models: {}
+#      reverted: viwiki_revert
     precache:
       reverted:
         "on": ["edit"]
   wikidatawiki:
     extractor: wikidata_api
-    scorer_models:
-      reverted: wikidata_revert
-      damaging: wikidata_damaging
-      goodfaith: wikidata_goodfaith
+    scorer_models: {}
+#      reverted: wikidata_revert
+#      damaging: wikidata_damaging
+#      goodfaith: wikidata_goodfaith
     precache:
       damaging:
         "on": ["nonbot_edit"]
